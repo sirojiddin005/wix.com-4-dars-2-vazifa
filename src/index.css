@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.3s;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.div1 {
+  padding: 10px 48px;
+  display: flex;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}

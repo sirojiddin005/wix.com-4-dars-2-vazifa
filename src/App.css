@@ -1,0 +1,461 @@
+
+.img {
+  background: url("https://static.wixstatic.com/media/ad420a_0966fded081b4a12988a616e305424d1~mv2.jpg/v1/fill/w_980,h_1002,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ad420a_0966fded081b4a12988a616e305424d1~mv2.jpg"), #101013;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: 100% 170vh;
+  background-blend-mode: overlay;    
+}
+header {
+  box-shadow:  0 2px 18px 0 rgba(129,162,182,.2);
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+}
+.items {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  padding: 12px 0;
+  width: 40%;
+}
+.items2 {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+}
+.items2 p, a {
+  font-size: 18px;
+  color: #20303c;
+}
+.items2 a:nth-child(2):hover {
+  color: #a811ff;
+}
+.items2 a:nth-child(2) {
+  text-decoration: underline;
+}
+.items2 a:nth-child(3):hover {
+  background-color: #3281ff;
+}
+.b1, .b2 {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.b1 {
+  width: 26px;
+  height: 24px;  
+  margin-left: auto;
+}
+.b2 {
+  width: 17px;
+  height: 28px;
+}
+.b3 {
+  background-color: #116dff;
+  padding: 10px 20px;
+  border-radius: 21px;
+  color: white;
+}
+.items .wix {
+  height: 24px;
+  width: 66px;
+}
+hr {
+  margin: 0 18px;
+  height: 25px;
+  opacity: .6;
+  border-top: none;
+}
+.main1 {
+  width: 100%;
+  height: 350px;
+  position: relative;
+  top: 75px;
+  background-color: #17161C;
+}
+.main1 .menu {
+  color: white;
+  padding: 40px 0;
+  margin: 0 80px;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu a {
+  color: white;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.menu a:hover {
+  color: #FE632D;
+}
+.menu p {
+  font-size: 28px;
+}
+.menu ul {
+  display: flex;
+  gap: 70px;
+  list-style: none;
+}
+.span {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.span span {
+  width: 50px;
+  background-color: white;
+  margin: 4px;
+  padding: 1px;
+}
+.author {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 250px;
+  padding-top: 50px;
+}
+.author ul li {
+  list-style: none;
+  padding: 10px 30px;
+  position: relative;
+  top: 105px;
+}
+.author ul {
+  position: fixed;
+  z-index: 3;
+}
+.woman {
+  position: relative;
+  left: 200px;
+}
+.author h1 {
+  font-size: 85px;
+  color: #FE805D;
+  font-weight: 100;
+}
+.author p {
+  font-size: 22px;
+  font-weight: 100;
+  margin-top: 10px;
+}
+.main2 {
+  width: 100%;
+  height: auto;
+  margin-top: 75px;
+}
+.center {
+  width: auto;
+  height: auto;
+  margin: 250px 200px 150px 200px;
+  background: #1311149c;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.center .p1 {
+  font-size: 20px;
+  font-weight: 100;
+  color: rgb(32, 32, 32);
+  position: relative;
+  bottom: 45px;
+  left: 20px;
+}
+.center .swan {
+  padding: 30px;
+}
+.swan p {
+  line-height: 35px;
+  margin-top: 30px;
+  font-size: 18px;
+  padding-right: 150px;
+}
+.swan h1 {
+  font-weight: 100;
+  font-size: 40px;
+}
+.swan h2 {
+  font-weight: 100;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.swan a, .kayla a {
+  padding: 8px 30px;
+  border: 1px solid #FE805D;
+  border-radius: 30px;
+  color: #FE805D;
+  margin-right: 20px;
+  opacity: 95%;
+}
+.swan a:hover, .club a:hover, .kayla a:hover {
+  background-color: #FE805D;
+  color: rgb(31, 31, 31);
+}
+.center img {
+  padding: 30px 20px 20px 20px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+#comp-kk2mpwaj3 {
+    fill: #FE805D;
+}
+.main3 {
+  width: 100%;
+  height: auto;
+  background-color: #1F222F;
+  padding: 100px 140px 50px 140px;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+#vec {
+  position: absolute;
+  right: 170px;
+  top: 0;
+}
+.icon {
+  fill: #FE805D;
+  margin-bottom: 30px;
+}
+.text {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 90px;
+}
+.text p {
+  line-height: 35px;
+  font-size: 18px;
+}
+.text p:nth-child(3) {
+  color: #FE805D;
+  padding: 55px;
+  line-height: 25px;
+  font-size: 17px;
+}
+.main3 h1 {
+  font-weight: 100;
+  margin-bottom: 100px;
+  font-size: 40px;
+  color: #FE805D;
+}
+.main3 hr {
+  border-left: none;
+  border-right: none;
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+}
+.main4 {
+  width: 100%;
+  height: auto;
+  background-color: #17161C;
+  color: white;
+  padding: 130px 120px 0 120px;
+  text-align: center;
+}
+.main4 h1 {
+  font-weight: 100;
+  font-size: 40px;
+  color: #FE805D;
+}
+.main4 p:nth-child(2) {
+  font-size: 18px;
+  padding: 30px 400px;
+  line-height: 30px;
+}
+.club {
+  border: 1px solid white;
+  padding: 60px 190px;
+  margin: 50px 80px 250px 80px;
+}
+.club h2 {
+  font-weight: 100;
+  line-height: 40px;
+  margin-bottom: 70px;
+}
+.club a {
+  padding: 8px 70px;
+  border: 1px solid #FE805D;
+  border-radius: 30px;
+  color: #FE805D;
+  margin-right: 20px;
+  opacity: 95%;
+}
+.main4 .kayla {
+  width: 100%;
+  height: auto;
+  background-color: #1F222F;
+  position: relative;
+  text-align: center;
+  padding-bottom: 200px;
+}
+.kayla img {
+  border-radius: 100%;
+  position: relative;
+  bottom: 85px;
+}
+.kayla h2 {
+  font-weight: 100;
+  font-size: 46px;
+  color: #FE805D;
+}
+.kayla p {
+  padding: 40px 352px;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+footer {
+  background-color: #FE805D;
+  padding: 20px;
+  text-align: center;
+}
+footer a {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 1200px) {
+  .items2 {
+    display: none;
+  }
+  .author {
+    margin-right: 50px;
+  }
+  .woman {
+    left: 80px;
+  }
+  .center {
+    margin: 250px 40px 150px 40px;
+  }
+  .swan p {
+    padding-right: 70px;
+    font-size: 16px;
+  }
+  .main3 {
+    padding: 100px 50px 50px 50px;
+  }
+  .text p:nth-child(3) {
+    padding: 55px 10px 55px 10px;
+  }
+  .text {
+    gap: 40px;
+  }
+  .main4 {
+    padding: 130px 40px 0 40px;
+  }
+  .main4 p:nth-child(2) {
+    padding: 30px 50px;
+  }
+  .kayla p {
+    padding: 40px 100px;
+  }
+}
+
+@media (max-width: 870px) {
+  .center {
+    margin: 250px 20px 150px 20px;
+  }
+  .author h1 {
+    font-size: 60px;
+  }
+  .swan p {
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 950px) {
+  .menu ul {
+    gap: 30px;
+  }
+  .club {
+    padding: 50px 80px;
+    margin: 50px 80px 100px 80px;
+  }
+}
+
+@media (max-width: 750px) {
+  header {
+    display: none;
+  }
+  .main1 {
+    top: 0;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .menu ul, .author ul {
+    display: none;
+  }
+  .main1 .menu {
+    margin: 0;
+    padding: 30px 20px;
+  }
+  .author {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+  }
+  .author img {
+    position: static;
+    width: 150px;
+    height: auto;
+  }
+  .author h1 {
+    font-size: 36px;
+  }
+  .center {
+    margin: 100px 40px;
+  }
+  .swan {
+    text-align: center;
+  }
+  .swan a {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  .swan p {
+    padding-right: 0;
+  }
+  .club {
+    padding: 50px 30px;
+    margin: 50px 20px 50px 20px;
+  }
+  .club h2 {
+    font-weight: 100;
+    line-height: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+  .main4 .kayla {
+    padding-bottom: 80px;
+    margin-top: 110px;
+  }
+  .kayla p {
+    padding: 20px;
+  }
+  .kayla h2 {
+    font-size: 24px;
+  }
+  .main3 h1 {
+    font-size: 34px;
+  }
+  .kayla #vec {
+    display: none;
+  }
+}
+@media (min-width: 750px) {
+  .span {
+    display: none;
+  }
+}
